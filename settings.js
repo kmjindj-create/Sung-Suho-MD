@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~PANWDBDb#7QVXHcNUEaASpKupZD4OaGtqs0Ly3VrUouCxtUfFvE4",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -67,13 +67,13 @@ module.exports = {
     STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
     // type sticker pack name 
 
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
     // make this true for custom emoji react  
 
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,💛,💚,💙,💜,🤎,🖤,🤍",
     // choose custom react emojis by yourself 
 
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",
     // automatic delete links without removing member 
 
     OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
@@ -94,19 +94,19 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words  
 
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     // make anti link true,false for groups 
 
-    AUTO_STICKER: process.env.AUTO_STICKER || "false",
+    AUTO_STICKER: process.env.AUTO_STICKER || "true",
     // make true for automatic stickers 
 
-    AUTO_REPLY: process.env.AUTO_REPLY || "false",
+    AUTO_REPLY: process.env.AUTO_REPLY || "true",
     // make true or false automatic text reply 
 
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "truee",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
